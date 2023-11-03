@@ -128,3 +128,26 @@ input:focus {
 
 
 
+.locationWindow {
+  font-size: 1.6rem;
+  background-color: #E0E0D1;
+  color: #4F5D73;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 10px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  word-break: break-all; 
+  max-width: 50%;
+  height: 100%;
+}
+
+#locationLink {
+  color: #4F5D73;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
